@@ -29,9 +29,9 @@ Commands Menu:
 
   Note: You can run more peers in your localhost with different port numbers. Also please wait for about 15 seconds for rounting table to update properly.
 
-- Show Neighbour: This command has been introduced to show the routing tables of the node just to verify that the protocol reach the task.
+- Show Routing Table: This command has been introduced to show the routing tables of the node just to verify that the protocol reach the task.
 
-- Show peer: Show the users linked with you application
+- Show Users: Show the users linked with you application
 
 
 Sending A Message:

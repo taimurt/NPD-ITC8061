@@ -55,13 +55,16 @@ Application 1:
 
 Commands Menu: Add Peer: 127.0.0.1:2222
 
+
 Application 2: 
 >python chat.py bbbb 2222
 
 Commands Menu: Add Peer: 127.0.0.1:3333
 
+
 Application 3: 
 >python chat.py cccc 3333
+
 
 - You can check by sending from user "aaaa" to "cccc" by typing "test message>cccc" to send individualy or "test message>ALL" to send    all of the users.
 

@@ -23,13 +23,13 @@ In the menu bar (Commands) there is the command menu with the following commands
 
 Commands Menu:
 
-- Add peer: Command to add a neighbour. You should know ip address and port number of the peer
-	you want to connect. Write in the textbox these information in this format: ipaddress:portnumber
+- Add peer: Command to add a neighbour. You should know ip address and port number of the peer you want to connect. Write in the textbox these information in this format: ipaddress:portnumber
+
   Example:  127.0.0.1:2222   (peer in local host)
+
   Note: You can run more peers in your localhost with different port numbers. Also please wait for about 15 seconds for rounting table to update properly.
 
-- Show Neighbour: This command has been introduced to show the routing tables of the node
-	just to verify that the protocol reach the task.
+- Show Neighbour: This command has been introduced to show the routing tables of the node just to verify that the protocol reach the task.
 
 - Show peer: Show the users linked with you application
 
@@ -38,10 +38,11 @@ Sending A Message:
 
 To send a message you have to write something and specify the receiver (uuid)
 Both must be entered in the textbox on the botton of the chat in that format:  "message":>"uuid receiver"
+	
 Example: "aaaa" wants to write "hello" to "bbbb" 
-	in the textbox of aaaa: hello>bbbb
+	In the textbox of aaaa: hello>bbbb
 If you want to write a message to everyone in the chat just write ALL as receiver
-	example: hello>ALL
+	Example: hello>ALL
 
 
 
@@ -49,13 +50,16 @@ Running Multiple Applications:
 You can run multiple applications in the same computer by just changing the uuid and port number to check the rounting table and neiboring table working properly.
 
 For example: 
-Application 1: >chat.py aaaa 1111
-Commands Menu: Add Peer: 127.0.0.1:2222
+Application 1: 
+	>chat.py aaaa 1111
+	Commands Menu: Add Peer: 127.0.0.1:2222
 
-Application 2: >chat.py bbbb 2222
-Commands Menu: Add Peer: 127.0.0.1:3333
+Application 2: 
+	>chat.py bbbb 2222
+	Commands Menu: Add Peer: 127.0.0.1:3333
 
-Application 3: >chat.py cccc 3333
+Application 3: 
+	>chat.py cccc 3333
 
 - You can check by sending from user "aaaa" to "cccc" by typing "test message>cccc" to send individualy or "test message>ALL" to send    all of the users.
 

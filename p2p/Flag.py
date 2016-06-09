@@ -1,3 +1,4 @@
+#This is a UDP based P2P Chat Application developed by Taimur Tufail, Tiziano Contaldo & Kristen Kivimaa
 
 class Flag(object):
     ROUTINGUPDATE = bin(32) #b'00100000'

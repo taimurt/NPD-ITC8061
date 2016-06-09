@@ -52,10 +52,12 @@ You can run multiple applications in the same computer by just changing the uuid
 For example: 
 Application 1: 
 >python chat.py aaaa 1111
+
 Commands Menu: Add Peer: 127.0.0.1:2222
 
 Application 2: 
 >python chat.py bbbb 2222
+
 Commands Menu: Add Peer: 127.0.0.1:3333
 
 Application 3: 

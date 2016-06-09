@@ -1,3 +1,5 @@
+#This is a UDP based P2P Chat Application developed by Taimur Tufail, Tiziano Contaldo & Kristen Kivimaa
+
 import socket, threading, struct, select
 from p2p import *
 from p2p.Packet import Packet

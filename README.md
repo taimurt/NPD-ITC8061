@@ -9,10 +9,10 @@ with two arguments:
 - port: number that identifies the port of the application 
    (it could be any port number)
 
->chat.py uuid port
+>python chat.py uuid port
 
 Example:
->chat.py abcd 2222
+>python chat.py abcd 2222
 
 Note: This application can run directly on Mac OS X but you have to write the command " alias python='python3' " when ever you open a new terminal window to set it default to python 3.5 version.
 
@@ -51,15 +51,15 @@ You can run multiple applications in the same computer by just changing the uuid
 
 For example: 
 Application 1: 
-	>chat.py aaaa 1111
-	Commands Menu: Add Peer: 127.0.0.1:2222
+>python chat.py aaaa 1111
+Commands Menu: Add Peer: 127.0.0.1:2222
 
 Application 2: 
-	>chat.py bbbb 2222
-	Commands Menu: Add Peer: 127.0.0.1:3333
+>python chat.py bbbb 2222
+Commands Menu: Add Peer: 127.0.0.1:3333
 
 Application 3: 
-	>chat.py cccc 3333
+>python chat.py cccc 3333
 
 - You can check by sending from user "aaaa" to "cccc" by typing "test message>cccc" to send individualy or "test message>ALL" to send    all of the users.
 

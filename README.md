@@ -14,7 +14,7 @@ with two arguments:
 Example:
 >python chat.py abcd 2222
 
-Note: This application can run directly on Mac OS X but you have to write the command " alias python='python3' " when ever you open a new terminal window to set it default to python 3.5 version.
+Note: This application can run directly on Mac OS X, linux and windows but you have to write the command " alias python='python3' " when ever you open a new terminal window to set it default to python 3.5 version (only if it is not set to version 3 by default).
 
 After run the application a window appears.
 

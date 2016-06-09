@@ -1,3 +1,5 @@
+#This is a UDP based P2P Chat Application developed by Taimur Tufail, Tiziano Contaldo & Kristen Kivimaa
+
 import sys
 from tkinter import *
 from tkinter import ttk

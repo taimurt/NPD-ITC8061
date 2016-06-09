@@ -67,6 +67,7 @@ Application 3:
 
 
 - You can check by sending from user "aaaa" to "cccc" by typing "test message>cccc" to send individualy or "test message>ALL" to send    all of the users.
+- If you quite application 3 and then check from the command "Show users" in Application 1 and 2 then the user "cccc" will be removed from their routing table respectively.
 
 
 

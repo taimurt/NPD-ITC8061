@@ -16,9 +16,9 @@ Example:
 
 Note: This application can run directly on Mac OS X, Linux and Windows but you have to write the command " alias python='python3' " when ever you open a new terminal window to set it default to python 3.5 version (only if it is not set to version 3 by default).
 
-After run the application a window appears.
+After when you run the application a window will appear.
 
-In the botton there is a text box where to write the message
+In the bottom there is a text box you can write the message
 In the menu bar (Commands) there is the command menu with the following commands:
 
 Commands Menu:

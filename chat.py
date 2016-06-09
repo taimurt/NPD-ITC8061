@@ -11,7 +11,7 @@ import sys
 
 uuid = sys.argv[1]
 if len(sys.argv[1]) != 4:
-    print("Input no valid. UUID must be of 4 characters")
+    print("Input not valid. UUID must be of 4 characters")
     exit (1)
 
 port = int(sys.argv[2])

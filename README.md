@@ -18,7 +18,8 @@ Note: This application can run directly on Mac OS X, Linux and Windows but you h
 
 After when you run the application a window will appear.
 
-In the bottom there is a text box you can write the message
+In the bottom there is a text box you can write the message.
+
 In the menu bar (Commands) there is the command menu with the following commands:
 
 Commands Menu:
@@ -67,7 +68,7 @@ Application 3:
 
 
 - You can check by sending from user "aaaa" to "cccc" by typing "test message>cccc" to send individualy or "test message>ALL" to send    all of the users.
-- If you quite application 3 and then check from the command "Show users" in Application 1 and 2 then the user "cccc" will be removed from their routing table respectively.
+- If you quit application 3 and then check from the command "Show users" in Application 1 and 2 then the user "cccc" will be removed from their routing table respectively.
 
 
 
